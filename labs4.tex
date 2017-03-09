@@ -1,0 +1,45 @@
+\documentclass[12pt]{tdtp}
+\usepackage{tabularx,colortbl}
+\usepackage{multirow}
+\usepackage{listings}
+\lstset{
+	language=VHDL,
+basicstyle=\tiny\ttfamily}
+\definecolor{light-gray}{gray}{0.96}
+\definecolor{pageheading-gray}{gray}{0.2}
+\definecolor{dark-gray}{gray}{0.45}
+\definecolor{dark-green}{rgb}{0.245,0.121,0.0}
+
+\newcommand{\auteur}{Cedric Lemaitre}
+\newcommand{\couriel}{c.lemaitre58@gmail.com}
+\newcommand{\promo}{M1 ESI}
+\newcommand{\annee}{2016-2017}
+\newcommand{\matiere}{Composant programmable}
+
+\newcommand{\tdtp}{TP 4}
+\renewcommand{\sujet}{VHDL Design}
+
+
+\begin{document}
+\titre
+Nous proposons dans ce TP des exercices préparatoires nécessaire à la programmation de la carte Nexys 3\footnote{\url{https://reference.digilentinc.com/_media/nexys:nexys3:nexys3_rm.pdf}}.\\
+\textit {NB : tous les exemples doivent faire l'objet de tests avec des \textbf{test-benchs} et à l'aide l'outil de simulation}
+
+
+%%%%%%%%%%%%
+\Exo
+
+ À partir de la documentation de la carte Nexys 3, déterminer le design permettant d'afficher une valeur numérique entre 0 et F sur un des afficheurs 7 segments.
+%%%%%%%%%%%%
+\Exo
+
+Réalisez un design permettant d'afficher sur un afficheur 7 segments la valleur d'un compteur prenant des valeurs entre 0 et F.
+
+%%%%%%%%%%%
+\Exo 
+
+Réaliser un compteur en base 10 permettant d'afficher des valeurs entre 0 et 9999.\\
+\textit{Pour plus de clareté, créez une structure de code modulaire}
+
+%%%%%%%%%%
+\end{document}
